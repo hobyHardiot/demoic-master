@@ -63,14 +63,15 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        <id>nexus-snapshots</id>
+        <url>http://localhost:8081/repository/snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>nexus-releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        <id>nexus-releases</id>
+        <url>http://localhost:8081/repository/releases/</url>
     </repository>
-  </distributionManagement>
+</distributionManagement>
+
 </project>
